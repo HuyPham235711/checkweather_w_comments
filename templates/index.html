@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset ="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>What a WONDERFUL DAY!</title>
+    <style>
+        body {
+            margin:0;
+            padding:0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-image: url('/static/background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: rgb(26, 176, 46);
+            text-align: center;
+            margin-bottom: 20px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #57e4f7, 0 0 40px #57e4f7, 0 0 50px #57e4f7, 0 0 60px #57e4f7, 0 0 70px #57e4f7;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: rgb(195, 234, 0);
+            text-align: center;
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #57e4f7, 0 0 40px #57e4f7, 0 0 50px #57e4f7, 0 0 60px #57e4f7, 0 0 70px #57e4f7;
+        }
+
+        h1, h2{
+            font-family: 'Arial', sans-serif;
+            line-height: 1.4;
+        }
+    </style>
+</head>
+<body>
+    <h1 style = "text-align:center;">{{text1}}</h1>
+    <h2 style = "text-align:center;">{{text2}}</h2>
+</body>
+</html>
